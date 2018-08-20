@@ -2,6 +2,10 @@
 
 React implementation of the Photo Album App for League
 
+## Live Demo
+
+[Visit take5.site/league/](http://take5.site/league/)
+
 ## Getting Started
 
 Make sure you have the most recent version of Node installed.
