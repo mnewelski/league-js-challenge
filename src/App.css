@@ -1,0 +1,57 @@
+html,body {
+  box-sizing: border-box;
+  background-color: #1ea35a;
+  color: #ffffff;
+}
+h1 {
+
+}
+.App {
+  text-align: center;
+}
+div.users-list, div.albums-list, div.photos-list {
+  float: left;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+div.user-card, div.album-card, div.photo-card {
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+  text-align: center;
+}
+div.user-card {
+  font-weight: bold;
+  max-width: 7vw;
+  vertical-align: top;
+}
+div.user-card img {
+  width: 90%;
+  display: block;
+  margin: 10px auto;
+}
+div.album-card {
+  max-width: 120px;
+  vertical-align: top;
+  font-size: 0.8em;
+}
+div.album-card img {
+  width: 90px;
+  display: block;
+  margin: 10px auto;
+}
+
+div.photo-card {
+  background-color: #ffffff;
+  width: 160px;
+  vertical-align: top;
+  color: #464646;
+  margin: 10px;
+}
+
+.active {
+  background-color: #08522a;
+}
